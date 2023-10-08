@@ -84,29 +84,29 @@
 
         <h2>Financeiro</h2>
         <h4>Escolha o método de pagamento</h4>
-        <form>
-            <input type="radio" name="financeiro" id="pix" value="pix">
-            <label for="pix">PIX</label>
-            <input type="radio" name="financeiro" id="boleto" value="boleto">
-            <label for="boleto">BOLETO</label>
-            <input type="radio" name="financeiro" id="cartaodecredito" value="cartaodecredito">
-            <label for="cartaodecredito">CARTÃO DE CRÉDITO</label>
 
-            <button onclick="selecao()">Selecionar</button>
-            <div id="div-pix">
-                <label for="codigoPix">Copie o código do Pix abaixo: </label>
-                <input type="text" name="codigo" id="codigoPix">
-                <label for="qrCode">Escaneie o Qr Code abaixo: </label>
-                <img src="qrcode.png" alt="qrcode" srcset="" id="qrCode">
+        <input type="radio" name="financeiro" id="pix" value="pix">
+        <label for="pix">PIX</label>
+        <input type="radio" name="financeiro" id="boleto" value="boleto">
+        <label for="boleto">BOLETO</label>
+        <input type="radio" name="financeiro" id="cartaodecredito" value="cartaodecredito">
+        <label for="cartaodecredito">CARTÃO DE CRÉDITO</label>
 
-            </div>
-            <div id="div-boleto">
-                <input type="text" name="" id="" placeholder="Digite seu nome">
-                <input type="text" name="" id="" placeholder="Digite seu CPF">
-                <button>GERAR BOLETO</button>
+        <button onclick="selecao()">Selecionar</button>
+        <div id="div-pix">
+            <label for="codigoPix">Copie o código do Pix abaixo: </label>
+            <input type="text" name="codigo" id="codigoPix">
+            <label for="qrCode">Escaneie o Qr Code abaixo: </label>
+            <img src="qrcode.png" alt="qrcode" srcset="" id="qrCode">
 
-            </div>
-            <div id="div-cartaoDeCredito"></div>
+        </div>
+        <div id="div-boleto">
+            <input type="text" name="" id="" placeholder="Digite seu nome">
+            <input type="text" name="" id="" placeholder="Digite seu CPF">
+            <button>GERAR BOLETO</button>
+
+        </div>
+        <div id="div-cartaoDeCredito">
             <h4>Digite seus dados de cartão de crédito</h4>
             <input type="text" name="" id="" placeholder="Digite seu nome">
             <input type="text" name="" id="" placeholder="Digite seu CPF">
@@ -114,9 +114,8 @@
             <input type="text" name="" id="" placeholder="Digite o CVC">
             <input type="text" name="" id="" placeholder="Digite a data de vencimento do cartão">
             <button>CONTINUAR</button>
-
-
-
+            
+        </div>
 
         </form>
 

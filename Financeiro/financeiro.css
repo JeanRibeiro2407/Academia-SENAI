@@ -1,0 +1,81 @@
+#main {
+    background-color: #ffffff;
+    border: 2px black;
+    border-radius: 3px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+body {
+    background-color: rgb(102, 0, 170);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Fjalla One', sans-serif;
+
+}
+
+h2 {
+    text-align: center;
+}
+
+a {
+    display: inline-block;
+    background-color: #5a0066;
+
+}
+
+#qrCode {
+    width: 200px;
+    height: 200px;
+}
+
+#div-pix {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#div-boleto {
+    display: none;
+
+}
+
+#div-cartaoDeCredito {
+    display: none;
+    grid-template-columns: repeat(2, 1fr);
+
+
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+}
+
+#selecionar {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 3%;
+    padding: 10px 20px;
+    background-color: rgb(111, 231, 111);
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+
+}
+
+h4 {
+    margin-left: 3%;
+    display: block;
+}
+
+#cartao-title {
+    display: none;
+    text-align: center;
+}
